@@ -12,6 +12,9 @@
 		F878BC6223AE3E2D0033CDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6023AE3E2D0033CDE1 /* Main.storyboard */; };
 		F878BC6423AE3E2F0033CDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6323AE3E2F0033CDE1 /* Assets.xcassets */; };
 		F878BC6723AE3E2F0033CDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6523AE3E2F0033CDE1 /* LaunchScreen.storyboard */; };
+		F8F7D34523AF227A005808CE /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F7D34423AF227A005808CE /* RedHatDisplay-Black.ttf */; };
+		F8F7D34723AF2290005808CE /* RedHatDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F7D34623AF2290005808CE /* RedHatDisplay-Medium.ttf */; };
+		F8F7D34923AF2331005808CE /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8F7D34823AF2330005808CE /* RedHatDisplay-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F878BC6323AE3E2F0033CDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F878BC6623AE3E2F0033CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F878BC6823AE3E2F0033CDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F7D34423AF227A005808CE /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatDisplay-Black.ttf"; path = "../../CODE BLUE ASSETS/fonts/RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
+		F8F7D34623AF2290005808CE /* RedHatDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatDisplay-Medium.ttf"; path = "../../CODE BLUE ASSETS/fonts/RedHatDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		F8F7D34823AF2330005808CE /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatDisplay-Bold.ttf"; path = "../../CODE BLUE ASSETS/fonts/RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 			children = (
 				F878BC5B23AE3E2D0033CDE1 /* Code Blue */,
 				F878BC5A23AE3E2D0033CDE1 /* Products */,
+				F8F7D34423AF227A005808CE /* RedHatDisplay-Black.ttf */,
+				F8F7D34623AF2290005808CE /* RedHatDisplay-Medium.ttf */,
+				F8F7D34823AF2330005808CE /* RedHatDisplay-Bold.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F878BC6723AE3E2F0033CDE1 /* LaunchScreen.storyboard in Resources */,
+				F8F7D34523AF227A005808CE /* RedHatDisplay-Black.ttf in Resources */,
+				F8F7D34723AF2290005808CE /* RedHatDisplay-Medium.ttf in Resources */,
 				F878BC6423AE3E2F0033CDE1 /* Assets.xcassets in Resources */,
+				F8F7D34923AF2331005808CE /* RedHatDisplay-Bold.ttf in Resources */,
 				F878BC6223AE3E2D0033CDE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
