@@ -14,11 +14,12 @@ We aim to create an app to help students at YC deal with stress. In this app, we
 
 ## Development
 
-Code Blue is designed to run on iOS platforms, primarily on iPhones. The UI layout was designed on Figma, and the prototype can be viewed at: https://www.figma.com/file/IXyJRs2XBycFgbSsQM7iLD/CODE-BLUE?node-id=0%3A1 
+Code Blue is designed to run on iOS platforms, primarily on iPhones. The UI layout was designed on Figma, and the prototype can be viewed [here](https://www.figma.com/file/IXyJRs2XBycFgbSsQM7iLD/CODE-BLUE?node-id=0%3A1).
 
 The app itself is being developed in Swift 5 through Xcode. 
 
 [![Run on Repl.it](https://repl.it/badge/github/mee-kell/code-blue)](https://repl.it/github/mee-kell/code-blue)
 
+If you are contributing, please remember to create a new branch, make your edits, execute `git pull --rebase upstream master` and submit your changes through a pull request! Do not edit directly to the master branch.
 
 Members: Leyla O., Carmen V., Beverly L., Michelle L.
