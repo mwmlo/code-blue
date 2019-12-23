@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
+    
     @IBAction func timeManagementVector(_ sender: Any) {
         if let url = URL(string: "https://www.vecteezy.com/free-vector/time-management") {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
