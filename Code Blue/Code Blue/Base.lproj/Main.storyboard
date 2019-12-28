@@ -363,17 +363,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJc-WP-6by">
-                                        <rect key="frame" x="25" y="50" width="33" height="33"/>
+                                        <rect key="frame" x="25" y="50" width="16" height="22"/>
                                         <state key="normal" image="back"/>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="QdS-e9-1lZ"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meditation-man-at-work-business-working-design-concept-vector-illustration 1" translatesAutoresizingMaskIntoConstraints="NO" id="DLs-ck-sQx">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="190.00000000000006"/>
+                                        <rect key="frame" x="0.0" y="50" width="414" height="190"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="meditation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y10-3G-YEf">
-                                        <rect key="frame" x="77" y="100" width="260.5" height="66.5"/>
+                                        <rect key="frame" x="89" y="100" width="236.5" height="58.5"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="50"/>
                                         <color key="textColor" red="0.98431372549999996" green="0.95294117649999999" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -573,22 +573,22 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 20" translatesAutoresizingMaskIntoConstraints="NO" id="n3S-Di-4hx">
-                                        <rect key="frame" x="0.0" y="192.5" width="414" height="703.5"/>
+                                        <rect key="frame" x="0.0" y="189.5" width="414" height="706.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="about us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raW-3R-4i3">
-                                        <rect key="frame" x="89.5" y="80" width="235" height="82.5"/>
+                                        <rect key="frame" x="83.5" y="80" width="247" height="79.5"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="60"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.56862745098039214" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgF-js-0lc">
-                                        <rect key="frame" x="40" y="227.5" width="77" height="23.5"/>
+                                        <rect key="frame" x="40" y="224.5" width="83.5" height="26.5"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="20"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.56862745100000001" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9i-WI-QJj">
-                                        <rect key="frame" x="40" y="541" width="64.5" height="23.5"/>
+                                        <rect key="frame" x="40" y="541" width="70" height="26.5"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="20"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.56862745100000001" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -611,7 +611,7 @@ Leyla Ozcan, Carmen Vidal</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="timeManagementVector" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhF-AX-3Mk" userLabel="timeManagementVector">
-                                        <rect key="frame" x="40" y="574.5" width="282" height="31"/>
+                                        <rect key="frame" x="40" y="577.5" width="291" height="34"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="16"/>
                                         <state key="normal" title="Time Management Vectors by Vecteezy">
                                             <color key="titleColor" red="0.61960784310000006" green="0.55294117649999996" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -622,7 +622,7 @@ Leyla Ozcan, Carmen Vidal</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7m1-PU-Dad">
-                                        <rect key="frame" x="40" y="608.5" width="253" height="31"/>
+                                        <rect key="frame" x="40" y="614.5" width="260" height="34"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="16"/>
                                         <state key="normal" title="People Talking Vectors by Vecteezy">
                                             <color key="titleColor" red="0.61960784310000006" green="0.55294117649999996" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -633,7 +633,7 @@ Leyla Ozcan, Carmen Vidal</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8i8-lb-mMZ">
-                                        <rect key="frame" x="40" y="642.5" width="248" height="31"/>
+                                        <rect key="frame" x="40" y="651.5" width="255" height="34"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="16"/>
                                         <state key="normal" title="Mental Health Vectors by Vecteezy">
                                             <color key="titleColor" red="0.61960784310000006" green="0.55294117649999996" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -644,7 +644,7 @@ Leyla Ozcan, Carmen Vidal</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNX-TY-xlH">
-                                        <rect key="frame" x="40" y="676.5" width="194" height="31"/>
+                                        <rect key="frame" x="40" y="688.5" width="201" height="34"/>
                                         <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="16"/>
                                         <state key="normal" title="Giving Vectors by Vecteezy">
                                             <color key="titleColor" red="0.61960784310000006" green="0.55294117649999996" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -706,10 +706,10 @@ Leyla Ozcan, Carmen Vidal</string>
             </objects>
             <point key="canvasLocation" x="-746" y="19"/>
         </scene>
-        <!--View Controller-->
+        <!--Schedule View Controller-->
         <scene sceneID="Ava-Ok-gtj">
             <objects>
-                <viewController storyboardIdentifier="schedulerScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qag-88-vfY" customClass="ViewController" customModule="Code_Blue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="schedulerScreen" id="qag-88-vfY" customClass="ScheduleViewController" customModule="Code_Blue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2It-EN-NVu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -754,13 +754,16 @@ Leyla Ozcan, Carmen Vidal</string>
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="622"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="pomodoro technique timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXW-N8-god">
-                                                <rect key="frame" x="47.5" y="30" width="319.5" height="33.5"/>
+                                                <rect key="frame" x="47" y="30" width="320" height="33.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="AhG-YS-pUx"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="25"/>
                                                 <color key="textColor" red="0.84313725490000002" green="0.43529411759999997" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="important tasks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZC-mq-NDU">
-                                                <rect key="frame" x="113" y="313.5" width="188.5" height="33.5"/>
+                                                <rect key="frame" x="113" y="363.5" width="188.5" height="33.5"/>
                                                 <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="25"/>
                                                 <color key="textColor" red="0.84313725490000002" green="0.43529411759999997" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -771,14 +774,14 @@ Leyla Ozcan, Carmen Vidal</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose from this list of important tasks and set a deadline for yourself." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUh-0j-NBx">
-                                                <rect key="frame" x="60.5" y="362" width="293.5" height="36.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set a deadline for an important task." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUh-0j-NBx">
+                                                <rect key="frame" x="100.5" y="412" width="213.5" height="18.5"/>
                                                 <fontDescription key="fontDescription" name="KohinoorDevanagari-Light" family="Kohinoor Devanagari" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5GP-Qo-eRl">
-                                                <rect key="frame" x="40" y="413.5" width="334" height="165"/>
+                                                <rect key="frame" x="40" y="445.5" width="334" height="165"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqk-DD-WeC">
                                                         <rect key="frame" x="0.0" y="0.0" width="334" height="75"/>
@@ -837,8 +840,11 @@ Leyla Ozcan, Carmen Vidal</string>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3eG-z2-sPp">
+                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3eG-z2-sPp">
                                                                 <rect key="frame" x="285" y="0.0" width="51" height="40"/>
+                                                                <connections>
+                                                                    <action selector="switchTappedOn:" destination="qag-88-vfY" eventType="valueChanged" id="rD9-6b-scx"/>
+                                                                </connections>
                                                             </switch>
                                                         </subviews>
                                                         <constraints>
@@ -848,23 +854,98 @@ Leyla Ozcan, Carmen Vidal</string>
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muL-7U-jD0">
+                                                <rect key="frame" x="139" y="195" width="136" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smc-jG-6EL">
+                                                <rect key="frame" x="80" y="316.5" width="50" height="32"/>
+                                                <color key="backgroundColor" red="0.84313725490000002" green="0.43529411759999997" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="nyp-g6-WmX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="15"/>
+                                                <state key="normal" title="Start">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="startButtonTapped:" destination="qag-88-vfY" eventType="touchUpInside" id="aQb-25-27F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QE3-wW-fDU">
+                                                <rect key="frame" x="284" y="316.5" width="50" height="32"/>
+                                                <color key="backgroundColor" red="0.84313725490000002" green="0.43529411759999997" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="ebU-1T-PM3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="15"/>
+                                                <state key="normal" title="Stop">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="stopButtonTapped:" destination="qag-88-vfY" eventType="touchUpInside" id="OWG-ef-aQs"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggd-Pj-DzV" customClass="KDCircularProgress" customModule="Code_Blue" customModuleProvider="target">
+                                                <rect key="frame" x="92" y="125" width="230" height="200"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="230" id="aXt-Ja-CGH"/>
+                                                    <constraint firstAttribute="height" constant="200" id="hpL-pD-gNk"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="IBColor1">
+                                                        <color key="value" red="0.84313725490000002" green="0.43529411759999997" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="angle">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundedCorners" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="glowAmount">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="progressThickness">
+                                                        <real key="value" value="0.25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="trackThickness">
+                                                        <real key="value" value="0.14999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                                                        <real key="value" value="-90"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="wZC-mq-NDU" firstAttribute="top" secondItem="Smc-jG-6EL" secondAttribute="bottom" constant="15" id="AWE-m3-Huk"/>
                                             <constraint firstItem="5GP-Qo-eRl" firstAttribute="leading" secondItem="6ni-sk-0zg" secondAttribute="leading" constant="40" id="Ei3-OP-9px"/>
                                             <constraint firstItem="KUh-0j-NBx" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="HEo-EG-c9k"/>
+                                            <constraint firstItem="QE3-wW-fDU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Smc-jG-6EL" secondAttribute="trailing" constant="70" id="MiP-zP-vgt"/>
+                                            <constraint firstItem="ggd-Pj-DzV" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="N6c-pK-rkV"/>
+                                            <constraint firstItem="muL-7U-jD0" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="OT9-mO-zhf"/>
                                             <constraint firstItem="KUh-0j-NBx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6ni-sk-0zg" secondAttribute="leading" constant="40" id="P9E-o8-DV8"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EkX-Nk-ziA" secondAttribute="trailing" constant="40" id="Q6R-Ml-E06"/>
                                             <constraint firstItem="CXW-N8-god" firstAttribute="top" secondItem="6ni-sk-0zg" secondAttribute="top" constant="30" id="VFo-GO-Nlo"/>
                                             <constraint firstItem="5GP-Qo-eRl" firstAttribute="top" secondItem="KUh-0j-NBx" secondAttribute="bottom" constant="15" id="WtD-3b-Uuu"/>
+                                            <constraint firstItem="ggd-Pj-DzV" firstAttribute="top" secondItem="EkX-Nk-ziA" secondAttribute="bottom" constant="10" id="Yf0-bn-5nN"/>
+                                            <constraint firstItem="muL-7U-jD0" firstAttribute="top" secondItem="EkX-Nk-ziA" secondAttribute="bottom" constant="80" id="alR-yd-hcC"/>
                                             <constraint firstItem="EkX-Nk-ziA" firstAttribute="top" secondItem="CXW-N8-god" secondAttribute="bottom" constant="15" id="b3T-gx-P3A"/>
                                             <constraint firstItem="wZC-mq-NDU" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="cZ2-4N-kUr"/>
                                             <constraint firstItem="KUh-0j-NBx" firstAttribute="top" secondItem="wZC-mq-NDU" secondAttribute="bottom" constant="15" id="dlg-UZ-hlq"/>
                                             <constraint firstItem="EkX-Nk-ziA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6ni-sk-0zg" secondAttribute="leading" constant="40" id="k2Y-KJ-B8r"/>
-                                            <constraint firstItem="wZC-mq-NDU" firstAttribute="top" secondItem="CXW-N8-god" secondAttribute="bottom" constant="250" id="pXm-UX-j8p"/>
+                                            <constraint firstItem="wZC-mq-NDU" firstAttribute="top" secondItem="CXW-N8-god" secondAttribute="bottom" constant="300" id="pXm-UX-j8p"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KUh-0j-NBx" secondAttribute="trailing" constant="40" id="riU-Mt-HTm"/>
+                                            <constraint firstAttribute="trailing" secondItem="QE3-wW-fDU" secondAttribute="trailing" constant="80" id="uIm-cw-gYx"/>
                                             <constraint firstItem="CXW-N8-god" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="uU3-9f-MJW"/>
+                                            <constraint firstItem="Smc-jG-6EL" firstAttribute="leading" secondItem="6ni-sk-0zg" secondAttribute="leading" constant="80" id="w84-2x-17G"/>
                                             <constraint firstAttribute="trailing" secondItem="5GP-Qo-eRl" secondAttribute="trailing" constant="40" id="w88-uE-c6J"/>
+                                            <constraint firstItem="wZC-mq-NDU" firstAttribute="top" secondItem="QE3-wW-fDU" secondAttribute="bottom" constant="15" id="xP4-vq-mKY"/>
                                             <constraint firstItem="EkX-Nk-ziA" firstAttribute="centerX" secondItem="6ni-sk-0zg" secondAttribute="centerX" id="ysT-eD-H58"/>
                                         </constraints>
                                     </view>
@@ -892,7 +973,12 @@ Leyla Ozcan, Carmen Vidal</string>
                         <viewLayoutGuide key="safeArea" id="Jjh-Rh-mER"/>
                     </view>
                     <connections>
+                        <outlet property="circularProgressView" destination="ggd-Pj-DzV" id="TaP-0D-Tta"/>
                         <outlet property="picker" destination="mDp-hs-A7m" id="dmJ-ws-fKV"/>
+                        <outlet property="setDate" destination="Bk9-qq-xBD" id="cve-9H-zbP"/>
+                        <outlet property="startButton" destination="Smc-jG-6EL" id="l3g-Id-y8B"/>
+                        <outlet property="stopButton" destination="QE3-wW-fDU" id="NdG-B8-dMo"/>
+                        <outlet property="timerLabel" destination="muL-7U-jD0" id="H6d-Us-k4h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6O-1s-cdt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1214,6 +1300,6 @@ Once all the requests have come in, we will deliver chocolates to all the studen
         <image name="vector-characters-of-people-holding-time-management-concept-illustration 2" width="320" height="221"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QdS-e9-1lZ"/>
+        <segue reference="YO3-Ms-1kv"/>
     </inferredMetricsTieBreakers>
 </document>
