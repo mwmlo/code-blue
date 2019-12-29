@@ -181,9 +181,7 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
             isSwitchOn = true
             
             let alert = UIAlertController(title: "Done!", message: "A notification will appear when your task is due.", preferredStyle: .alert)
-            
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-            
             self.present(alert, animated: true)
             
         }

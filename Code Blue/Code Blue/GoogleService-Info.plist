@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>659494425873-e1ogmibjassitjbhihvdv39imlj12oc5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.659494425873-e1ogmibjassitjbhihvdv39imlj12oc5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFvvsoQUJ3qG530MJZgEEIoA42lbLmyI8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>659494425873</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.codeblue.Code-Blue</string>
+	<key>PROJECT_ID</key>
+	<string>code-blue-2020</string>
+	<key>STORAGE_BUCKET</key>
+	<string>code-blue-2020.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:659494425873:ios:0eb58ebc7b75b274e068b0</string>
+	<key>DATABASE_URL</key>
+	<string>https://code-blue-2020.firebaseio.com</string>
+</dict>
+</plist>

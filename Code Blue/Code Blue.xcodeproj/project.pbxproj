@@ -15,6 +15,7 @@
 		F878BC6223AE3E2D0033CDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6023AE3E2D0033CDE1 /* Main.storyboard */; };
 		F878BC6423AE3E2F0033CDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6323AE3E2F0033CDE1 /* Assets.xcassets */; };
 		F878BC6723AE3E2F0033CDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F878BC6523AE3E2F0033CDE1 /* LaunchScreen.storyboard */; };
+		F8950B2F23B895F00090EB38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8950B2E23B895EF0090EB38 /* GoogleService-Info.plist */; };
 		F8DEBD2223B71AF7002B6625 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DEBD2123B71AF7002B6625 /* ScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +26,13 @@
 		F86B53D823B740C200B32EB5 /* KDCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		F878BC5923AE3E2D0033CDE1 /* Code Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F878BC5C23AE3E2D0033CDE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F878BC5E23AE3E2D0033CDE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		F878BC5E23AE3E2D0033CDE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F878BC6123AE3E2D0033CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F878BC6323AE3E2F0033CDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F878BC6623AE3E2F0033CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F878BC6823AE3E2F0033CDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8DEBD2123B71AF7002B6625 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F8950B2E23B895EF0090EB38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8DEBD2123B71AF7002B6625 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,15 +57,6 @@
 			path = "New Group/Fonts/Code Blue/New Group/Fonts/New Group";
 			sourceTree = "<group>";
 		};
-		F86B53E223B77BE700B32EB5 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				F8DEBD2123B71AF7002B6625 /* ScheduleViewController.swift */,
-				F878BC5E23AE3E2D0033CDE1 /* ViewController.swift */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
 		F878BC5023AE3E2C0033CDE1 = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +79,12 @@
 				F878BC5C23AE3E2D0033CDE1 /* AppDelegate.swift */,
 				F86B53D823B740C200B32EB5 /* KDCircularProgress.swift */,
 				F878BC6023AE3E2D0033CDE1 /* Main.storyboard */,
-				F86B53E223B77BE700B32EB5 /* View Controllers */,
+				F878BC5E23AE3E2D0033CDE1 /* ViewController.swift */,
+				F8DEBD2123B71AF7002B6625 /* ScheduleViewController.swift */,
 				F878BC6323AE3E2F0033CDE1 /* Assets.xcassets */,
 				F878BC6523AE3E2F0033CDE1 /* LaunchScreen.storyboard */,
 				F878BC6823AE3E2F0033CDE1 /* Info.plist */,
+				F8950B2E23B895EF0090EB38 /* GoogleService-Info.plist */,
 				F833626523B78116006BE7E4 /* New Group */,
 			);
 			path = "Code Blue";
@@ -158,6 +153,7 @@
 				F833626723B78146006BE7E4 /* RedHatDisplay-Black.ttf in Resources */,
 				F878BC6423AE3E2F0033CDE1 /* Assets.xcassets in Resources */,
 				F878BC6223AE3E2D0033CDE1 /* Main.storyboard in Resources */,
+				F8950B2F23B895F00090EB38 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
