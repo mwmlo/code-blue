@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A79A0F4934AEFBCE6FC87C55 /* Pods_Code_Blue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18760251838F7D036C6102BA /* Pods_Code_Blue.framework */; };
-		F804105E23B8E245003E0042 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F804105D23B8E245003E0042 /* Info.plist */; };
+		F822BF6823BA56E500B8FD67 /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6423BA56D100B8FD67 /* RedHatDisplay-Black.ttf */; };
+		F822BF6923BA56E500B8FD67 /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6523BA56D100B8FD67 /* RedHatDisplay-Bold.ttf */; };
+		F822BF6A23BA56E500B8FD67 /* RedHatDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6623BA56D100B8FD67 /* RedHatDisplay-Medium.ttf */; };
 		F8482CBD23B89AEF00CCA3DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8482CBC23B89AEF00CCA3DF /* Default-568h@2x.png */; };
 		F8482CBF23B89B2200CCA3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CBE23B89B2200CCA3DF /* AppDelegate.swift */; };
 		F8482CC123B89B2F00CCA3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CC023B89B2F00CCA3DF /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		F8482CC723B89BA100CCA3DF /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CC623B89BA000CCA3DF /* KDCircularProgress.swift */; };
 		F8482CC923B89BAB00CCA3DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8482CC823B89BAB00CCA3DF /* GoogleService-Info.plist */; };
 		F8482CCB23B89BB800CCA3DF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CCA23B89BB700CCA3DF /* ScheduleViewController.swift */; };
-		F8482CCD23B89BC500CCA3DF /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F8482CCC23B89BC500CCA3DF /* Fonts */; };
 		F8482CD023B89C2C00CCA3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8482CCE23B89C2B00CCA3DF /* Main.storyboard */; };
 		F8482CD323B89C4D00CCA3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8482CD123B89C4D00CCA3DF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,9 @@
 		2440928320B006D70A5C4901 /* Pods-Code Blue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Blue.debug.xcconfig"; path = "Target Support Files/Pods-Code Blue/Pods-Code Blue.debug.xcconfig"; sourceTree = "<group>"; };
 		AF17158C399A9B3D92E76256 /* Pods-Code Blue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Blue.release.xcconfig"; path = "Target Support Files/Pods-Code Blue/Pods-Code Blue.release.xcconfig"; sourceTree = "<group>"; };
 		F804105D23B8E245003E0042 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F822BF6423BA56D100B8FD67 /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
+		F822BF6523BA56D100B8FD67 /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		F822BF6623BA56D100B8FD67 /* RedHatDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Medium.ttf"; sourceTree = "<group>"; };
 		F8482CBC23B89AEF00CCA3DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F8482CBE23B89B2200CCA3DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Code Blue/AppDelegate.swift"; sourceTree = "<group>"; };
 		F8482CC023B89B2F00CCA3DF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Code Blue/ViewController.swift"; sourceTree = "<group>"; };
@@ -33,7 +37,6 @@
 		F8482CC623B89BA000CCA3DF /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDCircularProgress.swift; path = "Code Blue/KDCircularProgress.swift"; sourceTree = "<group>"; };
 		F8482CC823B89BAB00CCA3DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Code Blue/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8482CCA23B89BB700CCA3DF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "Code Blue/View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
-		F8482CCC23B89BC500CCA3DF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "Code Blue/View Controllers/Fonts"; sourceTree = "<group>"; };
 		F8482CCF23B89C2B00CCA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Code Blue/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		F8482CD223B89C4D00CCA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Code Blue/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		F878BC5923AE3E2D0033CDE1 /* Code Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F822BF6723BA56D100B8FD67 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F822BF6423BA56D100B8FD67 /* RedHatDisplay-Black.ttf */,
+				F822BF6523BA56D100B8FD67 /* RedHatDisplay-Bold.ttf */,
+				F822BF6623BA56D100B8FD67 /* RedHatDisplay-Medium.ttf */,
+			);
+			name = Fonts;
+			path = "Code Blue/Fonts";
+			sourceTree = "<group>";
+		};
 		F878BC5023AE3E2C0033CDE1 = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +110,10 @@
 				F8482CC223B89B4800CCA3DF /* Assets.xcassets */,
 				F8482CD123B89C4D00CCA3DF /* LaunchScreen.storyboard */,
 				F8482CC623B89BA000CCA3DF /* KDCircularProgress.swift */,
-				F8482CCC23B89BC500CCA3DF /* Fonts */,
 				F8482CC823B89BAB00CCA3DF /* GoogleService-Info.plist */,
 				F804105D23B8E245003E0042 /* Info.plist */,
 				F8482CCA23B89BB700CCA3DF /* ScheduleViewController.swift */,
+				F822BF6723BA56D100B8FD67 /* Fonts */,
 			);
 			path = "Code Blue";
 			sourceTree = "<group>";
@@ -164,13 +178,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F822BF6823BA56E500B8FD67 /* RedHatDisplay-Black.ttf in Resources */,
+				F822BF6923BA56E500B8FD67 /* RedHatDisplay-Bold.ttf in Resources */,
+				F822BF6A23BA56E500B8FD67 /* RedHatDisplay-Medium.ttf in Resources */,
 				F8482CD023B89C2C00CCA3DF /* Main.storyboard in Resources */,
 				F8482CC923B89BAB00CCA3DF /* GoogleService-Info.plist in Resources */,
-				F8482CCD23B89BC500CCA3DF /* Fonts in Resources */,
 				F8482CD323B89C4D00CCA3DF /* LaunchScreen.storyboard in Resources */,
 				F8482CBD23B89AEF00CCA3DF /* Default-568h@2x.png in Resources */,
 				F8482CC323B89B4800CCA3DF /* Assets.xcassets in Resources */,
-				F804105E23B8E245003E0042 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +216,7 @@
 		};
 		EA46E4DA54DE32A0B6985942 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -374,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7J938GYH3U;
 				INFOPLIST_FILE = "Code Blue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7J938GYH3U;
 				INFOPLIST_FILE = "Code Blue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

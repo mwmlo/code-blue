@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Code Blue/Code Blue/Fonts"
+      name = "Fonts">
+      <FileRef
+         location = "group:RedHatDisplay-Black.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:RedHatDisplay-Bold.ttf">
+      </FileRef>
+      <FileRef
+         location = "group:RedHatDisplay-Medium.ttf">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Code Blue.xcodeproj">
    </FileRef>
