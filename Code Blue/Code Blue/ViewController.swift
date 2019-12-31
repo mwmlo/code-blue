@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import StoreKit
 
 class ViewController: UIViewController {
     
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
         Firestore.firestore().settings = settings
         db = Firestore.firestore()
     }
-
+    
 // Links in about page
     
     @IBAction func timeManagementVector(_ sender: Any) {

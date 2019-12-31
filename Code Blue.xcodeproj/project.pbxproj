@@ -20,6 +20,7 @@
 		F8482CCB23B89BB800CCA3DF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CCA23B89BB700CCA3DF /* ScheduleViewController.swift */; };
 		F8482CD023B89C2C00CCA3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8482CCE23B89C2B00CCA3DF /* Main.storyboard */; };
 		F8482CD323B89C4D00CCA3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8482CD123B89C4D00CCA3DF /* LaunchScreen.storyboard */; };
+		F888879823BADF9200396E91 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F888879723BADF9200396E91 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F8482CCF23B89C2B00CCA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Code Blue/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		F8482CD223B89C4D00CCA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Code Blue/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		F878BC5923AE3E2D0033CDE1 /* Code Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F888879723BADF9200396E91 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "Code Blue/RoundButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				F8482CBE23B89B2200CCA3DF /* AppDelegate.swift */,
 				F8482CC023B89B2F00CCA3DF /* ViewController.swift */,
+				F888879723BADF9200396E91 /* RoundButton.swift */,
 				F8482CCE23B89C2B00CCA3DF /* Main.storyboard */,
 				F8482CC223B89B4800CCA3DF /* Assets.xcassets */,
 				F8482CD123B89C4D00CCA3DF /* LaunchScreen.storyboard */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8482CC723B89BA100CCA3DF /* KDCircularProgress.swift in Sources */,
+				F888879823BADF9200396E91 /* RoundButton.swift in Sources */,
 				F8482CC123B89B2F00CCA3DF /* ViewController.swift in Sources */,
 				F8482CBF23B89B2200CCA3DF /* AppDelegate.swift in Sources */,
 				F8482CCB23B89BB800CCA3DF /* ScheduleViewController.swift in Sources */,
@@ -399,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeblue.Code-Blue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeblue.Code-Blue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
