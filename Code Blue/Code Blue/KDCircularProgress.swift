@@ -6,6 +6,8 @@
 //  Copyright © 2019 Michelle Lo. All rights reserved.
 //
 
+// CUSTOM CLASS FOR POMODORO TIMER
+
 import UIKit
 
 @objc public enum KDCircularProgressGlowMode: Int {

@@ -11,7 +11,7 @@
 		F822BF6823BA56E500B8FD67 /* RedHatDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6423BA56D100B8FD67 /* RedHatDisplay-Black.ttf */; };
 		F822BF6923BA56E500B8FD67 /* RedHatDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6523BA56D100B8FD67 /* RedHatDisplay-Bold.ttf */; };
 		F822BF6A23BA56E500B8FD67 /* RedHatDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F822BF6623BA56D100B8FD67 /* RedHatDisplay-Medium.ttf */; };
-		F8482CBD23B89AEF00CCA3DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8482CBC23B89AEF00CCA3DF /* Default-568h@2x.png */; };
+		F8482CBD23B89AEF00CCA3DF /* Default Crash Screen in Resources */ = {isa = PBXBuildFile; fileRef = F8482CBC23B89AEF00CCA3DF /* Default Crash Screen */; };
 		F8482CBF23B89B2200CCA3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CBE23B89B2200CCA3DF /* AppDelegate.swift */; };
 		F8482CC123B89B2F00CCA3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8482CC023B89B2F00CCA3DF /* ViewController.swift */; };
 		F8482CC323B89B4800CCA3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8482CC223B89B4800CCA3DF /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		F822BF6423BA56D100B8FD67 /* RedHatDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Black.ttf"; sourceTree = "<group>"; };
 		F822BF6523BA56D100B8FD67 /* RedHatDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		F822BF6623BA56D100B8FD67 /* RedHatDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RedHatDisplay-Medium.ttf"; sourceTree = "<group>"; };
-		F8482CBC23B89AEF00CCA3DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8482CBC23B89AEF00CCA3DF /* Default Crash Screen */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default Crash Screen"; sourceTree = "<group>"; };
 		F8482CBE23B89B2200CCA3DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Code Blue/AppDelegate.swift"; sourceTree = "<group>"; };
 		F8482CC023B89B2F00CCA3DF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Code Blue/ViewController.swift"; sourceTree = "<group>"; };
 		F8482CC223B89B4800CCA3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Code Blue/Assets.xcassets"; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		F878BC5023AE3E2C0033CDE1 = {
 			isa = PBXGroup;
 			children = (
-				F8482CBC23B89AEF00CCA3DF /* Default-568h@2x.png */,
+				F8482CBC23B89AEF00CCA3DF /* Default Crash Screen */,
 				F878BC5B23AE3E2D0033CDE1 /* Code Blue */,
 				F878BC5A23AE3E2D0033CDE1 /* Products */,
 				43CD629D7F236E71245AA96D /* Pods */,
@@ -187,7 +187,7 @@
 				F8482CD023B89C2C00CCA3DF /* Main.storyboard in Resources */,
 				F8482CC923B89BAB00CCA3DF /* GoogleService-Info.plist in Resources */,
 				F8482CD323B89C4D00CCA3DF /* LaunchScreen.storyboard in Resources */,
-				F8482CBD23B89AEF00CCA3DF /* Default-568h@2x.png in Resources */,
+				F8482CBD23B89AEF00CCA3DF /* Default Crash Screen in Resources */,
 				F8482CC323B89B4800CCA3DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

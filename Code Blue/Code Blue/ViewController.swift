@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import StoreKit
 
 class ViewController: UIViewController {
     
@@ -16,13 +15,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         let settings = FirestoreSettings()
         Firestore.firestore().settings = settings
         db = Firestore.firestore()
     }
     
-// Links in about page
+// LINKS FOR THE ABOUT PAGE
     
     @IBAction func timeManagementVector(_ sender: Any) {
         if let url = URL(string: "https://www.vecteezy.com/free-vector/time-management") {
@@ -51,27 +49,28 @@ class ViewController: UIViewController {
         }
     }
     
-    // JOIN CHOCO PROJECT
+// JOIN CHOCO PROJECT
     
     
     @IBOutlet weak var lockerNumber: UITextField!
     
     @IBOutlet weak var optionMessage: UITextView!
     
+    // Get input from locker number and optional message
     @IBAction func submitTapped(_ sender: UIButton) {
         guard let lockerNumber = lockerNumber.text, !lockerNumber.isEmpty else {return}
         guard let optionMessage = optionMessage.text, !optionMessage.isEmpty else {return}
         
         let dataToSave: [String: Any] = ["locker": lockerNumber, "message": optionMessage]
         
+        // Send input to Firestore database
         var ref: DocumentReference? = nil
-        
         ref = db.collection("data").addDocument(data: dataToSave) { err in
             if let err = err {
                 print("Error: \(err)")
             } else {
                 print("Data has been saved!")
-                
+                // Pop up notification when data has been sent
                 let successAlert = UIAlertController(title: "Submitted!", message: "Thank you for contributing to The Choco Project.", preferredStyle: .alert)
                 successAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(successAlert, animated: true)

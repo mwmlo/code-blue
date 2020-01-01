@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Adding Firebase
         FirebaseApp.configure()
-        
+        // Adding Firebase authentication
         Auth.auth().signInAnonymously() { (authResult, error) in
             if let error = error {
                 print("Error: \(error)")
@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let uid = user.uid
             }
         }
-        
+        // Adding Firestore
         let db = Firestore.firestore()
         return true
     }

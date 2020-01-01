@@ -5,6 +5,7 @@
 //  Created by Michelle Lo on 31/12/19.
 //  Copyright © 2019 Michelle Lo. All rights reserved.
 //
+//  CUSTOM CLASS TO MAKE ROUND "about us" BUTTON
 
 import UIKit
 

@@ -10,13 +10,28 @@ import UIKit
 import UserNotifications
 
 class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+
+    // For a mixture of different functions
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Pomodoro timer
+        circularProgressView.angle = 0
+        stopButton.isEnabled = false
+        
+        // Important task picker
+        self.picker?.delegate = self
+        self.picker?.dataSource = self
+        pickerData = ["Coursework", "Internal Assessment", "Extended Essay", "Language Oral", "Update ManageBac", "CAS Project"]
+    }
     
-    // Pomodoro Timer
+// POMODORO TIMER
     
     @IBOutlet weak var circularProgressView: KDCircularProgress!
     
     @IBOutlet var timerLabel: UILabel!
     
+    // Settings for 25 minutes
     var seconds = 1500
     var timer = Timer()
     var isTimerRunning = false
@@ -34,22 +49,26 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     @objc func updateTimer() {
         if seconds < 1 {
             timer.invalidate()
-            //Send alert to indicate "time's up!"
+                // Pop up notification when time is up
+                let successAlert = UIAlertController(title: "Time's up!", message: "Take a 5 minute break before coming back.", preferredStyle: .alert)
+                successAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(successAlert, animated: true)
         } else {
             seconds -= 1
             timerLabel.text = timeString(time: TimeInterval(seconds))
         }
     }
     
+    // Display countdown on label
     func timeString(time:TimeInterval) -> String {
         let minutes = Int(time) / 60 % 60
         let seconds = Int(time) % 60
         return String(format: "%02i:%02i", minutes, seconds)
     }
     
-    
+    // Start button
     @IBOutlet var startButton: UIButton!
-    
+
     @IBAction func startButtonTapped(_ sender: UIButton) {
         if isTimerRunning == false {
             runTimer()
@@ -58,6 +77,7 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         }
     }
     
+    // Stop button
     @IBOutlet var stopButton: UIButton!
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
@@ -69,30 +89,13 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
 
     
-    // Important Task Picker
+// IMPORTANT TASK PICKER
     
     @IBOutlet var picker: UIPickerView!
     
     @IBOutlet weak var setDate: UIDatePicker!
     
     var pickerData : [String] = [String]()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // progress bar
-        
-        circularProgressView.angle = 0
-        
-        // picker
-        
-        self.picker?.delegate = self
-        self.picker?.dataSource = self
-        
-        pickerData = ["Internal Assessment", "Extended Essay", "Language Oral", "Update ManageBac"]
-        
-        stopButton.isEnabled = false
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -114,15 +117,15 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         return pickerData[row]
     }
     
+    /*
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         // This method is triggered whenever the user makes a change to the picker selection.
         // The parameter named row and component represents what was selected.
-    }
+    } */
 
     
     
-    // ADD NOTIFICATION ALARM
-    
+    // Function to add notification alarm
     func scheduleNotification(message: String) {
         
         let center = UNUserNotificationCenter.current()
@@ -136,17 +139,17 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
             }
         }
         
-        // Content
+        // Settings for notification alarm
         let content = UNMutableNotificationContent()
         content.title = "Code Blue Reminder"
         content.body = message
         content.categoryIdentifier = "alarm"
         content.sound = UNNotificationSound.default
         
+        // Choosing a date
         var dateComponents = DateComponents()
         
-        let components = setDate.calendar.dateComponents([.day, .month, .year],
-                                                            from: setDate.date)
+        let components = setDate.calendar.dateComponents([.day, .month, .year],from: setDate.date)
         dateComponents.day = components.day
         dateComponents.month = components.month
         dateComponents.year = components.year
@@ -155,8 +158,7 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
         // Create and register notification request
         let uuidString = UUID().uuidString
-        let request = UNNotificationRequest(identifier: uuidString,
-                                            content: content, trigger: trigger)
+        let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
         
         // Schedule the request with the system.
         let notificationCenter = UNUserNotificationCenter.current()
@@ -172,6 +174,7 @@ class ScheduleViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
     }
     
+    // Add notification alarm when switch is turned on
     var isSwitchOn = false
     
     @IBAction func switchTappedOn(_ sender: UISwitch) {
