@@ -26,8 +26,6 @@ Cloud Firestore is used to store data for when users submit requests to the Choc
 
 The UI layout was designed on Figma, and the prototype can be viewed [here](https://www.figma.com/file/IXyJRs2XBycFgbSsQM7iLD/CODE-BLUE?node-id=0%3A1).
 
-## How to contribute
-
 Here is a task list:
 1. HOME SCREEN
   - [x] Add basic view layout and static content
@@ -49,8 +47,24 @@ Here is a task list:
   - [x] Add basic view layout and static content
   - [x] Install [Firebase and Cloud Firestore](https://firebase.google.com/docs/firestore) for database / authentication method
   - [x] Add functionality to submit form
+7. MISCELLANEOUS
+  - [x] Configured auto layout so that app looks good across various device sizes.
 
-If you are contributing, please remember to create a new branch, make your edits, execute `git pull --rebase upstream master` and submit your changes through a pull request! Do not edit directly to the master branch.
+## How to contribute
+
+- Install git on your computer. See the [documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Create an account on Github.
+- Click the "Fork" button in the upper right to make your own copy of the repository. DO NOT EDIT THE MASTER BRANCH.
+- Open terminal. Clone the fork to your computer using `git clone https://github.com/yourusername/code-blue.git`.
+- Go into the folder just created. (Right click on folder, go to services, press new terminal at folder.) Set up the upstream remote so that you can eventually pull changes from the main repository. `git remote add upstream https://github.com/mee-kell/code-blue.git`.
+- Fetch and track all branches. `git fetch --all`
+- Pull the latest changes from the remote repository. `git pull --rebase upstream master`
+- Work on your task.
+- Enter `git status` to see what files have changed.
+- To stage all new files, enter `git add -A`.
+- Use `git commit -m "/message/"` to commit changes and add a message to describe the changes.
+- Update to the latest code from the main repository. `git pull --rebase upstream master`.
+- To upload your changes, use `git push`.
+- Your forked repository will update your changes. To submit these changes to the main repository here, create a pull request asking to merge your fork and the main code.
 
 ### Creators
 Michelle Lo
