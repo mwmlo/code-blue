@@ -28,7 +28,27 @@ The UI layout was designed on Figma, and the prototype can be viewed [here](http
 
 ## How to contribute
 
-Here is a list of tasks:
+Here is a task list:
+1. HOME SCREEN
+  - [x] Add basic view layout and static content
+2. ABOUT SCREEN
+  - [x] Add basic view layout and static content
+  - [ ] Add [StoreKit](https://developer.apple.com/documentation/storekit/skstorereviewcontroller) notification so that users can give rating on App Store
+3. MEDITATION SCREEN
+  - [x] Add basic view layout
+  - [ ] Embed click-and-play audio files of meditation sessions to appropriate boxes
+4. SCHEDULER SCREEN
+  - [x] Add basic view layout
+  - [x] Embed Pomodoro Timer with start and stop buttons
+  - [x] Add functionality to timer
+  - [x] Embed important task picker with UIPicker and UIDatePicker
+  - [x] Add functionality to task picker
+5. HELP SCREEN
+  - [x] Add basic view layout and static content
+6. CHOCO PROJECT SCREEN
+  - [x] Add basic view layout and static content
+  - [x] Install [Firebase and Cloud Firestore](https://firebase.google.com/docs/firestore) for database / authentication method
+  - [x] Add functionality to submit form
 
 If you are contributing, please remember to create a new branch, make your edits, execute `git pull --rebase upstream master` and submit your changes through a pull request! Do not edit directly to the master branch.
 
